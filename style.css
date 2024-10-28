@@ -1,0 +1,30 @@
+body {
+  background-image: url('https://s3.eu-west-2.amazonaws.com/nelsoncodepen/autumn_backdrop%402x.png');
+  background-size: cover;
+  background-color: #333; /* Darker background for a modern look */
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* Hides scrollbars */
+}
+
+#score, #level {
+  font-size: 24px;
+  position: absolute;
+  top: 10px;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.level {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+}
+
+canvas {
+  display: block;
+}
+
+#leaf {
+  display: none;
+}
